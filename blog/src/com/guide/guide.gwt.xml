@@ -6,7 +6,10 @@
 <module rename-to='guide'>
 
   <inherits name='com.google.gwt.user.User'/>
-
+  
+  	<!--  配置之后使得项目支持json 格式的数据 -->
+	<inherits name="com.google.gwt.json.JSON"/>
+	<inherits name="com.google.gwt.http.HTTP"/>
   <inherits name='com.google.gwt.user.theme.clean.Clean'/>
   
   <entry-point class='com.guide.client.gwtGuide'/>
